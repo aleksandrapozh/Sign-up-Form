@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'Norse';
+    src: url('fonts/Norse.woff2') format('woff2'),
+        url('fonts/Norse.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Norse';
+    src: url('fonts/Norse-Bold.woff2') format('woff2'),
+        url('fonts/Norse-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.sidebar {
+  width: 40%;
+  background-image: url('leaf-bg.avif');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  position: relative;
+}
+
+.logo-container {
+  margin-top: 180px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.logo-img{
+    height: 100px;
+    width: auto;
+
+}
+
+.logo-text{
+    font-family: 'Norse'; 
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    font-size: 200%;
+}
+
+.footer-credit {
+  text-align: center;
+  color: #ffffff;
+  font-size: 0.8rem;
+}
+
+.footer-credit a {
+  color: #ffffff;
+}
+
+.main-content {
+  width: 60%;
+  background-color: #f9fafb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.intro-text {
+  padding: 0 50px 40px 50px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #111827;
+  max-width: 700px;
+}
+
+.intro-text p {
+  margin-bottom: 20px;
+}
+
+.form-container {
+  background-color: #ffffff;
+  padding: 30px 50px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+  color: #111827;
+}
+
+.form-row {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+.form-group label {
+  font-size: 0.75rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #374151;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.form-group input {
+  padding: 8px 10px;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.form-group input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 4px rgba(37, 99, 235, 0.5);
+}
+
+.form-group input.error {
+  border-color: #991b1b;
+}
+
+.action-container {
+  padding: 40px 50px 0 50px;
+}
+
+.action-container button {
+  background-color: #596d48;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 12px 40px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+
+.action-container button:hover {
+  background-color: #4a5b3c;
+}
+
+.action-container p {
+  color: #111827;
+}
+
+.action-container a {
+  color: #596d48;
+  font-weight: bold;
+  text-decoration: none;
+}
