@@ -90,7 +90,7 @@ body {
 }
 
 .intro-text {
-  padding: 0 50px 40px 50px;
+  padding: 0 50px 20px 50px;
   font-size: 1.2rem;
   font-weight: 600;
   color: #111827;
@@ -104,7 +104,6 @@ body {
 .form-container {
   background-color: #ffffff;
   padding: 30px 50px;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
 .form-container h2 {
@@ -114,7 +113,7 @@ body {
 
 .form-row {
   display: flex;
-  gap: 40px;
+  gap: 100px;
   margin-bottom: 20px;
 }
 
