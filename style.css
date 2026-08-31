@@ -103,7 +103,7 @@ body {
 
 .form-container {
   background-color: #ffffff;
-  padding: 30px 50px;
+  padding: 20px 50px;
 }
 
 .form-container h2 {
@@ -150,7 +150,7 @@ body {
 }
 
 .action-container {
-  padding: 40px 50px 0 50px;
+  padding: 10px 50px 0 50px;
 }
 
 .action-container button {
